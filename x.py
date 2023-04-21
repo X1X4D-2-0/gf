@@ -216,9 +216,9 @@ def Main():
     os.system('clear')
     print(logo)
     print(50*'_')
-    print(' [1] \033[1;32m GF CRACK ')
-    print(' [2] \033[1;37m BF CRACK ')
-    print(' [0] \033[1;37m  to Main menu')
+    print(' [1]  \033[1;32m GF CRACK ')
+    print(' [2]  \033[1;37m BF CRACK ')
+    print(' [0]  \033[1;37m  to Main menu')
     bal = input('\033[1;37m Choose option >>> ')
     # Get the size of the terminal window
     columns, rows = os.get_terminal_size()
